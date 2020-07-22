@@ -14,9 +14,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Icilome',
+        title: 'MCS NEWS',
         theme: ThemeData(
-          brightness: Brightness.light,
+          brightness: Brightness.dark,
           primaryColor: Color(0xFF385C7B),
           accentColor: Color(0xFFE74C3C),
           textTheme: TextTheme(
@@ -109,7 +109,8 @@ class _MyHomePageState extends State<MyHomePage> {
         child: _widgetOptions.elementAt(_selectedIndex),
       ),
       bottomNavigationBar: BottomNavigationBar(
-          backgroundColor: Colors.white,
+          //backgroundColor: Colors.white,
+          backgroundColor: Color(0x212121),
           selectedLabelStyle:
               TextStyle(fontWeight: FontWeight.w500, fontFamily: "Soleil"),
           unselectedLabelStyle: TextStyle(fontFamily: "Soleil"),
