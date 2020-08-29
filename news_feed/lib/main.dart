@@ -5,8 +5,8 @@ import 'package:news_feed/view/viewmodels/news_list_viewmodel.dart';
 import 'package:provider/provider.dart';
 
 void main() {
-  runApp(ChangeNotifierProvider<NewListViewModel>(
-    create: (context) => NewListViewModel(),
+  runApp(ChangeNotifierProvider<NewsListViewModel>(
+    create: (context) => NewsListViewModel(),
     child: MyApp(),
   ));
 }

@@ -10,7 +10,16 @@ class HeadLinePage extends StatelessWidget {
             child: Text("HeadLine"),
           ),
         ),
+        floatingActionButton: FloatingActionButton(
+          child: Icon(Icons.refresh), //Todo 更新処理
+          onPressed: () => onRefresh(),
+        ),
       ),
     );
+  }
+
+  //Todo 更新処理
+  onRefresh() {
+    print("Headlinepage.onRefresh.");
   }
 }

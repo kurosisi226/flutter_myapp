@@ -2,7 +2,7 @@ import 'package:chopper/chopper.dart';
 
 part 'api_service.chopper.dart';
 
-//パラメータ定義後、このコマンド実行しdartファイルを作成する
+//パラメータ定義後、このコマンド実行しdartファイルを作成する(chopper)
 //「flutter packages pub run build_runner build」
 
 @ChopperApi()

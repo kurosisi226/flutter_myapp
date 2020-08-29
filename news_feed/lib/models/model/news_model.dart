@@ -1,10 +1,10 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:json_serializable/builder.dart';
+// import 'package:json_serializable/builder.dart';
 
 part 'news_model.g.dart';
 
 @JsonSerializable()
-class News{
+class News {
   final List<Article> articles;
   News({this.articles});
 
@@ -13,15 +13,18 @@ class News{
 }
 
 @JsonSerializable()
-class Article{
+class Article {
   final String title;
   final String description;
   final String url;
   final String urlToImage;
-  @JsonKey(name:"publishedAt") final String publishDate;
+  @JsonKey(name: "publishedAt")
+  final String publishDate;
   final String content;
-  Article(this.title,this.description,this.url,this.urlToImage,this.publishDate,this.content);
+  Article(this.title, this.description, this.url, this.urlToImage,
+      this.publishDate, this.content);
 
-  factory Article.fromJson(Map<String, dynamic> json) => _$ArticleFromJson(json);
+  factory Article.fromJson(Map<String, dynamic> json) =>
+      _$ArticleFromJson(json);
   Map<String, dynamic> toJson() => _$ArticleToJson(this);
 }
