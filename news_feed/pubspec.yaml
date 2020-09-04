@@ -33,6 +33,7 @@ dependencies:
   chopper: ^3.0.3
   json_annotation: ^3.0.1
   flutter_advanced_networkimage: ^0.7.0
+  webview_flutter: ^0.3.22+1
   
 
 dev_dependencies:
