@@ -21,8 +21,14 @@ class Article {
   @JsonKey(name: "publishedAt")
   final String publishDate;
   final String content;
-  Article(this.title, this.description, this.url, this.urlToImage,
-      this.publishDate, this.content);
+  Article({
+    this.title,
+    this.description,
+    this.url,
+    this.urlToImage,
+    this.publishDate,
+    this.content,
+  });
 
   factory Article.fromJson(Map<String, dynamic> json) =>
       _$ArticleFromJson(json);

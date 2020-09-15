@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:news_feed/models/db/database.dart';
 import 'package:news_feed/view/screens/home_screen.dart';
 import 'package:news_feed/view/style/style.dart';
 import 'package:news_feed/view/viewmodels/head_line_viewmodel.dart';
 import 'package:news_feed/view/viewmodels/news_list_viewmodel.dart';
 import 'package:provider/provider.dart';
 
+MyDatabase myDatabase;
+
 void main() {
+  myDatabase = MyDatabase();
   runApp(MultiProvider(
     providers: [
       ChangeNotifierProvider(

@@ -21,12 +21,12 @@ Map<String, dynamic> _$NewsToJson(News instance) => <String, dynamic>{
 
 Article _$ArticleFromJson(Map<String, dynamic> json) {
   return Article(
-    json['title'] as String,
-    json['description'] as String,
-    json['url'] as String,
-    json['urlToImage'] as String,
-    json['publishedAt'] as String,
-    json['content'] as String,
+    title: json['title'] as String,
+    description: json['description'] as String,
+    url: json['url'] as String,
+    urlToImage: json['urlToImage'] as String,
+    publishDate: json['publishedAt'] as String,
+    content: json['content'] as String,
   );
 }
 

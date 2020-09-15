@@ -30,31 +30,31 @@ flutter:
 
   uses-material-design: true
 
-  assets:
-    - assets/icon.png
-    - assets/no-internet.png
-    - assets/play-button.png
-    - assets/boxed/fashion.png
-    - assets/boxed/health.png
-    - assets/boxed/lifestyle.png
-    - assets/boxed/music.png
-    - assets/boxed/photography.png
-    - assets/boxed/recipies.png
-    - assets/boxed/sport.png
-    - assets/boxed/travel.png
-    - assets/boxed/world.png
-    - assets/more/favourite.png
-    - assets/more/contact.png
-    - assets/more/share.png
-    - assets/more/notification.png
+  # assets:
+  #   - assets/icon.png
+  #   - assets/no-internet.png
+  #   - assets/play-button.png
+  #   - assets/boxed/fashion.png
+  #   - assets/boxed/health.png
+  #   - assets/boxed/lifestyle.png
+  #   - assets/boxed/music.png
+  #   - assets/boxed/photography.png
+  #   - assets/boxed/recipies.png
+  #   - assets/boxed/sport.png
+  #   - assets/boxed/travel.png
+  #   - assets/boxed/world.png
+  #   - assets/more/favourite.png
+  #   - assets/more/contact.png
+  #   - assets/more/share.png
+  #   - assets/more/notification.png
     
 
-  fonts:
-    - family: Poppins
-      fonts:
-        - asset: fonts/Poppins/Poppins-Bold.ttf
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: fonts/Poppins/Poppins-Bold.ttf
   
-    - family: Soleil
-      fonts:
-        - asset: fonts/Soleil/Soleil-Bold.otf
-        - asset: fonts/Soleil/Soleil-Regular.otf
+  #   - family: Soleil
+  #     fonts:
+  #       - asset: fonts/Soleil/Soleil-Bold.otf
+  #       - asset: fonts/Soleil/Soleil-Regular.otf
